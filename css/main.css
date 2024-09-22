@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  margin: auto;
+  margin-top: 15vh;
+}
+
+#container {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+h1 {
+  background: whitesmoke;
+  width: 50%;
+  margin: 1rem auto;
+}
+
+table {
+  table-layout: fixed;
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  background: whitesmoke;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+th {
+   background: whitesmoke;
+   border: 1px solid burlywood;
+}
+
+tr:nth-child(even) {
+  background: burlywood;
+}
+
+th,
+td {
+  padding: 0.2rem;
+  text-align: center;
+}
+
+td {
+  border: 1px solid whitesmoke;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+input {
+  width: 100%;
+  font-size: 2rem;
+  line-height: 1.5;
+  outline: none;  
+  border: 2px solid springgreen;
+  background: inherit;
+  margin: 0;
+  padding: 0;
+  text-align: inherit;
+}
+
+.invalid {
+  border-color: salmon;
+}
+
+.active {
+   background: springgreen;
+}
