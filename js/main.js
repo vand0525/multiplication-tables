@@ -35,7 +35,7 @@ function buildTable(i, j) {
     input.classList.add('invalid');
     tdata.appendChild(input);
 
-    input.addEventListener("focus", () => {
+    input.addEventListener("input", () => {
       input.value == result ? input.classList.remove('invalid') : input.classList.add('invalid');
     });
 
